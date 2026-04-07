@@ -1,0 +1,10 @@
+services:
+  jekyll:
+    build: .
+    platform: linux/arm64/v8
+    command: jekyll serve --watch --force_polling --livereload --host 0.0.0.0
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    volumes:
+      - .:/srv/jekyll

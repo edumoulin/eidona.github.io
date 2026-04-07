@@ -23,3 +23,54 @@ strong {
 h3 {
   margin-top: 64px;
 }
+
+.tagline {
+  font-weight: 600;
+  font-size: 18px;
+  color: #0FA3B1;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+.hero {
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  position: relative;
+  background: white;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    url("/assets/streamlines.png") no-repeat 80% center / 850px;
+  filter: grayscale(1) contrast(2.5) brightness(1.4);
+  mix-blend-mode: multiply;
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.hero h1,
+.hero .tagline,
+.hero .hero-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #0FA3B1;
+  mix-blend-mode: screen;
+  opacity: 0.12;
+  pointer-events: none;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 1;
+}
+
