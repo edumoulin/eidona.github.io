@@ -15,7 +15,7 @@ title: Home
       Structuring discovery in complex biology
     </p>
     <p class="hero-text">
-      Identifying new therapeutic entry points across biological context
+      Identifying new therapeutic targets across biological context
     </p>
 
   </div>
@@ -38,9 +38,10 @@ title: Home
     entry points and novel mechanisms earlier in the discovery process.
   </p>
    <p>
-    The platform is designed to generate multiple discovery programs by identifying
-    new therapeutic entry points directly within complex biological systems where
-    context shapes therapeutic response. 
+
+    The platform generates multiple discovery programs by identifying new
+    therapeutic targets in disease systems where biological context shapes
+    therapeutic response.
    </p>
 </section>
 
