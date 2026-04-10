@@ -99,51 +99,43 @@ title: Home
 
 </section>
 
-
 <section id="founders" class="section founders">
 
   <h2>Founders</h2>
 
+  <div class="founders-grid">
 
-  <div class="founder">
+    <div class="founder">
+      <h3>Etienne Dumoulin</h3>
+      <p>
+        Machine learning and computational drug discovery
+      </p>
+      <p>
+        <a href="https://www.linkedin.com/in/%C3%A9tienne-dumoulin-624a9624/"
+           target="_blank"
+           rel="noopener noreferrer">
+          LinkedIn
+        </a>
+      </p>
+    </div>
 
-    <h3>Etienne Dumoulin</h3>
-
-    <p>
-      Machine learning and computational drug discovery
-    </p>
-
-    <p>
-      <a href="https://www.linkedin.com/in/%C3%A9tienne-dumoulin-624a9624/"
-         target="_blank"
-         rel="noopener noreferrer">
-        LinkedIn
-      </a>
-    </p>
-
-  </div>
-
-
-  <div class="founder">
-
-    <h3>Erik Martin</h3>
-
-    <p>
-      Chemoproteomics and mechanism biology
-    </p>
-
-    <p>
-      <a href="https://www.linkedin.com/in/erik-martin-5bb49234/"
-         target="_blank"
-         rel="noopener noreferrer">
-        LinkedIn
-      </a>
-    </p>
+    <div class="founder">
+      <h3>Erik Martin</h3>
+      <p>
+        Chemoproteomics and mechanism biology
+      </p>
+      <p>
+        <a href="https://www.linkedin.com/in/erik-martin-5bb49234/"
+           target="_blank"
+           rel="noopener noreferrer">
+          LinkedIn
+        </a>
+      </p>
+    </div>
 
   </div>
 
 </section>
-
 
 <section id="contact" class="section contact">
 

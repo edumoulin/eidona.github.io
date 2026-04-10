@@ -125,14 +125,31 @@ strong {
   box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
 }
 
-.founders .founder {
-  padding: 20px 0;
-  border-top: 1px solid #E2E8F0;
+.founders-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 32px;
+  margin-top: 24px;
 }
 
-.founders .founder:first-of-type {
-  border-top: none;
-  padding-top: 0;
+.founder {
+  border-top: 1px solid #E2E8F0;
+  padding-top: 20px;
+}
+
+.founder h3 {
+  margin-bottom: 10px;
+}
+
+.founder p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 800px) {
+  .founders-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
 }
 
 a {
