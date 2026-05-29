@@ -112,9 +112,15 @@ title: Home
         Machine learning and computational drug discovery
       </p>
       <p>
+        <a href="https://biounfold.ai/"
+          target="_blank"
+          rel="noopener noreferrer">
+          BioUnfold
+        </a>
+        ·
         <a href="https://www.linkedin.com/in/%C3%A9tienne-dumoulin-624a9624/"
-           target="_blank"
-           rel="noopener noreferrer">
+          target="_blank"
+          rel="noopener noreferrer">
           LinkedIn
         </a>
       </p>
@@ -126,14 +132,19 @@ title: Home
         Chemoproteomics and mechanism biology
       </p>
       <p>
+        <a href="https://tinyurl.com/erikmartin-google-scholar"
+          target="_blank"
+          rel="noopener noreferrer">
+          Google Scholar
+        </a>
+        ·
         <a href="https://www.linkedin.com/in/erik-martin-5bb49234/"
-           target="_blank"
-           rel="noopener noreferrer">
+          target="_blank"
+          rel="noopener noreferrer">
           LinkedIn
         </a>
       </p>
     </div>
-
   </div>
 
 </section>
