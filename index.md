@@ -12,10 +12,10 @@ title: Home
     </div>
 
     <p class="tagline">
-      Structuring discovery in complex biology
+      Virtual disease model for drug discovery
     </p>
     <p class="hero-text">
-      Identifying new therapeutic targets across biological context
+      Learning how diseases respond to discover new medicines
     </p>
 
   </div>
@@ -28,20 +28,20 @@ title: Home
   <h2>What we do</h2>
 
   <p>
-    Therapeutic response often depends on structured variation across cell systems,
-    perturbations, and molecular context.
+    The best way to understand disease is to observe how it responds.
   </p>
 
   <p>
-    Eidona Bio is building a multi-context discovery platform designed to
-    preserve biological structure while identifying tractable therapeutic
-    entry points and novel mechanisms earlier in the discovery process.
+    We are building a virtual disease model that learns how diseases respond
+    across biological contexts. By predicting disease behavior rather than
+    describing biological states, our platform helps discover new
+    biology, generate new therapeutic hypotheses, and reveal opportunities
+    that would otherwise remain hidden.
   </p>
-   <p>
 
-    The platform generates multiple discovery programs by identifying new
-    therapeutic targets in disease systems where biological context shapes
-    therapeutic response.
+   <p>
+    We are initially deploying the platform in oncology and will expand across
+    diseases through internal discovery programs and partnerships.
    </p>
 </section>
 
@@ -50,22 +50,14 @@ title: Home
 
   <h2>Our approach</h2>
 
-  <p>
-  Our approach integrates biological profiling, representation-based analysis,
-  and covalent fragment chemistry into a unified discovery workflow designed
-  to resolve intervention strategies in complex disease systems.
-  </p>
-
   <div class="cards">
 
     <div class="card">
 
-      <h3>Multi-context profiling</h3>
+      <h3>Disease-relevant profiling</h3>
 
       <p>
-        We measure biological responses across structured experimental
-        contexts to capture disease-relevant variation rather than reducing 
-        discovery to isolated assay systems.
+    We profile disease across diverse biological contexts, generating the experimental observations needed to understand how therapeutic response changes between patients, perturbations, and environments.
       </p>
 
     </div>
@@ -73,12 +65,11 @@ title: Home
 
     <div class="card">
 
-      <h3>Representation-based analysis</h3>
+      <h3>Virtual disease model</h3>
 
       <p>
-        Machine-learning-based representations organize high-dimensional biological
-        measurements into interpretable phenotype structure that supports earlier
-        mechanism resolution across experimental contexts.
+Our virtual disease model organizes observations into biological structure, allowing us to predict disease behavior, connect observations across experiments, and transfer biological knowledge across
+    therapeutic programs.
       </p>
 
     </div>
@@ -89,9 +80,9 @@ title: Home
       <h3>Covalent fragment chemistry</h3>
 
       <p>
-        Covalent fragments expand accessible binding space and enable earlier
-        identification of intervention strategies than classical screening
-        approaches alone.
+        Covalent fragment libraries generate information-rich biological
+    responses that make disease behavior easier to learn and therapeutic
+    opportunities easier to identify.
       </p>
 
     </div>
