@@ -35,7 +35,9 @@ document.addEventListener("DOMContentLoaded", () => {
       //console.log(`Moving to slide ${index}`);
       track.style.transform = `translateX(-${index * 100}%)`;
       dots.forEach((dot, i) => {
-        dot.classList.toggle("active", i === index);
+        const active = i === index;
+        dot.classList.toggle("active", active);
+        //console.log(i, active, dot.className);
       });
     }
 
