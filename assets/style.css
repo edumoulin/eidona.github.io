@@ -40,10 +40,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: url("/assets/streamlines.png") no-repeat 80% center / 850px;
-  filter: grayscale(1) contrast(2.5) brightness(1.4);
-  mix-blend-mode: multiply;
-  opacity: 0.22;
+  background: url("/assets/streamlines.png") no-repeat 5% center / 850px;
   pointer-events: none;
 }
 
@@ -221,6 +218,47 @@ a:hover {
   color: var(--primary);
 }
 
+.nav-toggle {
+  display: none;
+  border: none;
+  background: transparent;
+  font-size: 26px;
+  cursor: pointer;
+  color: #334155;
+}
+
+@media (max-width: 640px) {
+  .nav-inner {
+    position: relative;
+    padding: 14px 20px;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border-bottom: 1px solid #E2E8F0;
+    padding: 12px 20px 16px;
+  }
+
+  .nav-links.open {
+    display: block;
+  }
+
+  .nav-links a {
+    display: block;
+    margin: 12px 0;
+  }
+}
+
+
 .logo {
   font-family: 'Lexend', sans-serif;
   font-weight: 300;
@@ -240,4 +278,99 @@ a:hover {
 
 section {
   scroll-margin-top: 90px;
+}
+
+
+
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  transition: transform 0.35s ease;
+  will-change: transform;
+}
+
+.carousel-slide {
+  flex: 0 0 100%;
+  min-width: 100%;
+  width: 100%;
+}
+
+.carousel-slide img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  border: none;
+  background: rgba(0, 0, 0, 0.35);
+  color: white;
+  font-size: 2rem;
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+}
+
+.carousel-btn.prev {
+  left: 0.5rem;
+}
+
+.carousel-btn.next {
+  right: 0.5rem;
+}
+
+.carousel-dots {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+}
+
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.4);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.carousel-dot.active {
+  background: white;
+}
+
+.carousel-dots {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+}
+
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.4);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.carousel-dot.active {
+  background: white;
 }

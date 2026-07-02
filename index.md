@@ -3,6 +3,8 @@ layout: default
 title: Home
 ---
 
+
+<script src="{{ '/assets/js/carousel.js' | relative_url }}"></script>
 <section  id="home" class="hero">
 
   <div class="hero-inner">
@@ -22,8 +24,31 @@ title: Home
 
 </section>
 
+<section id="approach" class="section approach">
 
-<section class="section intro">
+  <h2>Our approach</h2>
+
+  <div class="carousel" data-carousel>
+    <button class="carousel-btn prev" aria-label="Previous slide">‹</button>
+    <div class="carousel-track">
+      <div class="carousel-slide">
+        <img src="{{ '/assets/images/carousel-slide-1.svg' | relative_url }}" alt="">
+      </div>
+      <div class="carousel-slide">
+        <img src="{{ '/assets/images/carousel-slide-2.svg' | relative_url }}" alt="">
+      </div>
+      <div class="carousel-slide">
+        <img src="{{ '/assets/images/carousel-slide-3.svg' | relative_url }}" alt="">
+      </div>
+    </div>
+    <div class="carousel-dots"></div>
+    <button class="carousel-btn next" type="button">›</button>
+  </div>
+
+</section>
+
+
+<section class="section whatwedo">
 
   <h2>What we do</h2>
 
@@ -45,51 +70,6 @@ title: Home
    </p>
 </section>
 
-
-<section id="approach" class="section approach">
-
-  <h2>Our approach</h2>
-
-  <div class="cards">
-
-    <div class="card">
-
-      <h3>Disease-relevant profiling</h3>
-
-      <p>
-    We profile disease across diverse biological contexts, generating the experimental observations needed to understand how therapeutic response changes between patients, perturbations, and environments.
-      </p>
-
-    </div>
-
-
-    <div class="card">
-
-      <h3>Virtual disease model</h3>
-
-      <p>
-Our virtual disease model organizes observations into biological structure, allowing us to predict disease behavior, connect observations across experiments, and transfer biological knowledge across
-    therapeutic programs.
-      </p>
-
-    </div>
-
-
-    <div class="card">
-
-      <h3>Covalent fragment chemistry</h3>
-
-      <p>
-        Covalent fragment libraries generate information-rich biological
-    responses that make disease behavior easier to learn and therapeutic
-    opportunities easier to identify.
-      </p>
-
-    </div>
-
-  </div>
-
-</section>
 
 <section id="founders" class="section founders">
 
