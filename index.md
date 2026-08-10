@@ -78,6 +78,8 @@ title: Home
   <div class="founders-grid">
 
     <div class="founder">
+      <img  alt="Etienne Dumoulin" class="profile-img"
+            src="{{ '/assets/images/etienne-dumoulin-profile.jpg' | relative_url }}">
       <h3>Etienne Dumoulin</h3>
       <p>
         Machine learning and computational drug discovery
@@ -98,10 +100,13 @@ title: Home
     </div>
 
     <div class="founder">
+      <img alt="Erik Martin" class="profile-img" 
+           src="{{ '/assets/images/erik-martin-profile.jpg' | relative_url }}">
       <h3>Erik Martin</h3>
       <p>
         Chemoproteomics and mechanism biology
       </p>
+      <br> 
       <p>
         <a href="https://tinyurl.com/erikmartin-google-scholar"
           target="_blank"
